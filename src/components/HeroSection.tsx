@@ -89,15 +89,15 @@ const HeroSection = () => (
           transition={{ duration: 0.7, delay: 0.3 }}
           className="flex flex-col items-center gap-6 mt-12 lg:mt-0"
         >
-          <div className="bg-gradient-to-br from-[#0d2454] to-[#1a3a6e] rounded-3xl shadow-2xl p-6 max-w-md border border-white/10">
-            <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c]">
+          <div className="bg-black rounded-3xl shadow-2xl p-6 max-w-md border border-white/10">
+            <div className="relative overflow-hidden rounded-2xl bg-black">
               <img
                 src="/images/ricardo-branco/RICARDOBRANCO-SITE01.jpeg"
                 alt="Servico de guincho Ricardo Branco"
                 className="w-full h-auto"
               />
             </div>
-            <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c] mt-4">
+            <div className="relative overflow-hidden rounded-2xl bg-black mt-4">
               <img
                 src="/images/ricardo-branco/RICARDOBRANCO-SITE02.jpeg"
                 alt="Reboque profissional Ricardo Branco"
