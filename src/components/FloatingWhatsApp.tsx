@@ -33,7 +33,7 @@ const FloatingWhatsApp = () => {
 
       <a
         href={PHONE_URL}
-        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-full bg-primary hover:brightness-110 text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
+        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-full bg-[#1FA855] hover:bg-[#1A8E48] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
         title="Ligar agora"
         onClick={() => {
           if (typeof window !== 'undefined' && (window as any).gtag) {
