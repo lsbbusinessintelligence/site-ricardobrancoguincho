@@ -5,7 +5,7 @@ const services = [
   {
     icon: Truck,
     title: "Reboque 24h",
-    desc: "Servico de reboque completo para qualquer tipo de veiculo, disponivel 24 horas por dia e noite em todo o Distrito Federal.",
+    desc: "Servico de reboque completo para qualquer tipo de veiculo, disponivel 24 horas por dia e noite em Volta Redonda, Barra Mansa e regiao.",
   },
   {
     icon: AlertCircle,
