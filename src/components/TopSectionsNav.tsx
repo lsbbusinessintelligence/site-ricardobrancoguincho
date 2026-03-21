@@ -17,8 +17,8 @@ const TopSectionsNav = () => (
           aria-label="Ir para o topo"
         >
           <img
-            src="/images/luizfalcirolli/CLIENTE_LUIZ_ELETRICISTA_LOGO.png"
-            alt="Logo Luiz Falcirolli Eletricista"
+            src="/images/ricardo-branco/RICARDOBRANCO-LOGO.png"
+            alt="Logo Ricardo Branco Guincho"
             className="w-[3rem] h-[3rem] rounded-full object-contain bg-white p-1"
           />
         </a>

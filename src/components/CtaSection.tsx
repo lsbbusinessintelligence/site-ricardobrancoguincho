@@ -16,7 +16,7 @@ const CtaSection = () => (
           Precisa de um guincho? Estamos aqui 24 horas!
         </h2>
         <p className="text-primary-foreground/70 text-lg mb-10">
-          Entre em contato com a JN Guincho para reboque seguro, rápido e com preço justo em Brasília e Distrito Federal.
+          Entre em contato com a Ricardo Branco Guincho para reboque seguro, rapido e com preco justo em Volta Redonda, Barra Mansa e regiao.
         </p>
         <a
           href={WHATSAPP_URL}

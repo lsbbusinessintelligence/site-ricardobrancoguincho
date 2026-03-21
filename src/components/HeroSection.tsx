@@ -41,10 +41,10 @@ const HeroSection = () => (
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground mb-6">
-            Guincho e Reboque 24 Horas em Brasília
+            Guincho e Reboque 24 Horas em Volta Redonda e Barra Mansa
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl">
-            Socorro rápido para veículos leves e pesados. Atendimento imediato em Brasília e em todo o Distrito Federal com profissionais treinados e preço justo.
+            Socorro rápido para veículos leves e pesados. Atendimento especializado com nota máxima de satisfação na região Sul Fluminense.
           </p>
           <a
             href={WHATSAPP_URL}
@@ -66,7 +66,7 @@ const HeroSection = () => (
           <div className="mt-8 flex flex-col gap-3">
             <span className="flex items-center gap-2 text-primary-foreground/80 text-sm md:text-base font-semibold">
               <Check className="w-5 h-5 text-accent flex-shrink-0" />
-              Atendimento 24 horas em todo o Distrito Federal
+              Atendimento 24 horas em Volta Redonda, Barra Mansa e região
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
@@ -92,15 +92,15 @@ const HeroSection = () => (
           <div className="bg-gradient-to-br from-[#0d2454] to-[#1a3a6e] rounded-3xl shadow-2xl p-6 max-w-md border border-white/10">
             <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c]">
               <img
-                src="/images/jn-guincho/JNGUINCHOFOTOSITE01.jpeg"
-                alt="Serviço de guincho da JN Guincho"
+                src="/images/ricardo-branco/RICARDOBRANCO-SITE01.jpeg"
+                alt="Servico de guincho Ricardo Branco"
                 className="w-full h-auto"
               />
             </div>
             <div className="relative overflow-hidden rounded-2xl bg-[#0d1f3c] mt-4">
               <img
-                src="/images/jn-guincho/JNGUINCHOFOTOSITE02.jpeg"
-                alt="Reboque profissional da JN Guincho"
+                src="/images/ricardo-branco/RICARDOBRANCO-SITE02.jpeg"
+                alt="Reboque profissional Ricardo Branco"
                 className="w-full h-auto"
               />
             </div>
@@ -115,7 +115,7 @@ const HeroSection = () => (
                 "Equipe profissional e atendimento ágil!"
               </p>
               <p className="text-white/60 text-sm">
-                Clientes satisfeitos com a JN Guincho
+                Mais de 260 avaliacoes com nota 5.0
               </p>
             </div>
           </div>

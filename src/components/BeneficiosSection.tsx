@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { ShieldCheck, Clock, Award, DollarSign } from "lucide-react";
+import { Star, Clock, Timer, DollarSign } from "lucide-react";
 
 const benefits = [
-  { icon: Clock, title: "Atendimento 24h", desc: "Disponível 24 horas por dia, 7 dias por semana, em todo o Distrito Federal sem exceção." },
-  { icon: Award, title: "Profissionais Treinados", desc: "Equipe especializada e qualificada para todo tipo de situação veicular e orientada para segurança." },
-  { icon: DollarSign, title: "Preço Justo e Transparente", desc: "Orçamento claro sem surpresas ou taxas ocultas. Você sabe exatamente o que vai pagar." },
-  { icon: ShieldCheck, title: "Chegada Rápida", desc: "Agilidade no atendimento com menor tempo de espera. Sua segurança é nossa prioridade." },
+  { icon: Star, title: "Lider em Avaliacoes", desc: "Mais de 260 avaliacoes 5 estrelas comprovam a qualidade do atendimento." },
+  { icon: Clock, title: "Atendimento 24h", desc: "Disponivel 24 horas por dia em Volta Redonda, Barra Mansa e regiao Sul Fluminense." },
+  { icon: Timer, title: "Chegada Ultra-Rapida", desc: "Resposta imediata para reduzir seu tempo de espera em situacoes de emergencia." },
+  { icon: DollarSign, title: "Preco Justo e Sem Surpresas", desc: "Orcamento transparente, sem taxas ocultas e com total clareza no atendimento." },
 ];
 
 const BeneficiosSection = () => (
@@ -19,7 +19,7 @@ const BeneficiosSection = () => (
         className="text-center max-w-2xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Por que escolher a <span className="text-gradient">JN Guincho?</span>
+          Por que escolher a <span className="text-gradient">Ricardo Branco Guincho?</span>
         </h2>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
