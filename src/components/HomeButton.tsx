@@ -15,7 +15,7 @@ const HomeButton = () => {
         }
       }}
     >
-      <Home className="w-6 h-6 text-gray-700 group-hover:text-[#FF8C00] transition-colors" />
+      <Home className="w-6 h-6 text-gray-700 group-hover:text-[#E31B23] transition-colors" />
     </a>
   );
 };

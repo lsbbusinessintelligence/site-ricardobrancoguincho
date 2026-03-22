@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
 const feedbackImages = [
-  { src: "/images/aureocosta/AUREOCOSTA07.jpeg", alt: "Registro de atendimento residencial 1" },
-  { src: "/images/aureocosta/AUREOCOSTA08.jpeg", alt: "Registro de atendimento residencial 2" },
-  { src: "/images/aureocosta/AUREOCOSTA09.jpeg", alt: "Registro de atendimento residencial 3" },
-  { src: "/images/aureocosta/AUREOCOSTA10.jpeg", alt: "Registro de atendimento residencial 4" },
-  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Registro de atendimento residencial 5" },
+  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE03.jpeg", alt: "Atendimento de guincho Ricardo Branco 1" },
+  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE04.jpeg", alt: "Atendimento de guincho Ricardo Branco 2" },
+  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE05.jpeg", alt: "Atendimento de guincho Ricardo Branco 3" },
+  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE06.jpeg", alt: "Atendimento de guincho Ricardo Branco 4" },
+  { src: "/images/ricardo-branco/RICARDOBRANCO-SITE07.jpeg", alt: "Atendimento de guincho Ricardo Branco 5" },
 ];
 
 const FeedbacksSection = () => (
@@ -19,10 +19,10 @@ const FeedbacksSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Registro de <span className="text-gradient">Atendimentos Reais</span>
+          Mais <span className="text-gradient">Atendimentos Reais</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Imagens de atendimentos executados com foco em rapidez, organização e solução do problema.
+          Registros de reboque e socorro veicular executados com profissionalismo e agilidade em Volta Redonda e região.
         </p>
       </motion.div>
 
