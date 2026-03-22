@@ -6,40 +6,40 @@
 
 @layer base {
   :root {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 92%;
+    --background: 0 0% 98%;
+    --foreground: 220 12% 12%;
 
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 92%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 12% 12%;
 
-    --popover: 0 0% 12%;
-    --popover-foreground: 0 0% 92%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 12% 12%;
 
-    /* Preto e Cinza Escuro */
-    --primary: 0 0% 6%;
+    /* Vermelho Resgate */
+    --primary: 358 79% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 92%;
+    --secondary: 220 10% 94%;
+    --secondary-foreground: 220 12% 20%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 70%;
+    --muted: 220 11% 92%;
+    --muted-foreground: 220 9% 35%;
 
-    /* Verde WhatsApp */
-    --accent: 142 70% 49%;
+    /* Apoio visual em vermelho (CTA WhatsApp usa cor dedicada) */
+    --accent: 358 79% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 24%;
-    --input: 0 0% 24%;
-    --ring: 0 0% 35%;
+    --border: 220 10% 86%;
+    --input: 220 10% 84%;
+    --ring: 358 79% 50%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    --hero-gradient: linear-gradient(135deg, hsl(0 0% 4%) 0%, hsl(0 0% 8%) 45%, hsl(0 0% 12%) 100%);
-    --glow-accent: 0 0% 35%;
+    --hero-gradient: linear-gradient(135deg, hsl(358 79% 18%) 0%, hsl(358 79% 28%) 40%, hsl(220 11% 14%) 100%);
+    --glow-accent: 358 79% 50%;
     --surface-elevated: 0 0% 100%;
   }
 }
@@ -77,20 +77,20 @@
     right: 0;
     bottom: 0;
     background:
-      radial-gradient(circle at 20% 50%, hsl(0 0% 26% / 0.1) 0%, transparent 50%),
-      radial-gradient(circle at 80% 80%, hsl(0 0% 34% / 0.08) 0%, transparent 50%);
+      radial-gradient(circle at 20% 50%, hsl(358 79% 45% / 0.18) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, hsl(220 11% 26% / 0.15) 0%, transparent 50%);
     pointer-events: none;
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, hsl(0 0% 72%) 0%, hsl(0 0% 90%) 100%);
+    background: linear-gradient(135deg, hsl(358 79% 42%) 0%, hsl(358 79% 58%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .glow-border {
-    box-shadow: 0 0 30px -5px hsl(var(--accent) / 0.4), 0 0 60px -10px hsl(var(--accent) / 0.2);
+    box-shadow: 0 0 26px -10px hsl(var(--accent) / 0.5), 0 0 56px -14px hsl(var(--accent) / 0.25);
   }
 
   .card-hover {
@@ -99,8 +99,8 @@
   }
   .card-hover:hover {
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px -15px hsl(var(--foreground) / 0.1);
-    border-color: hsl(0 0% 35% / 0.45);
+    box-shadow: 0 20px 40px -18px hsl(220 20% 10% / 0.18);
+    border-color: hsl(358 79% 50% / 0.35);
   }
 
   .work-accent {
@@ -111,7 +111,7 @@
     content: '';
     position: absolute;
     inset: -2px;
-    background: linear-gradient(45deg, transparent, hsl(0 0% 45% / 0.14), transparent);
+    background: linear-gradient(45deg, transparent, hsl(358 79% 50% / 0.14), transparent);
     border-radius: inherit;
     pointer-events: none;
     opacity: 0;

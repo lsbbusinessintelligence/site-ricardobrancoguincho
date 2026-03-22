@@ -42,7 +42,7 @@ export const SERVICES = [
   },
   {
     id: 3,
-    name: "Serviços para Perda de Chave",
+    name: "Serviços para perda de chave do veículo",
     description: "Abertura segura de veículos sem danificar estrutura ou sistema de segurança.",
   },
   {
@@ -71,7 +71,7 @@ export const DIFERENCIAIS = [
   {
     id: 1,
     title: "Líder em Avaliações",
-    description: "Mais de 260 avaliações com nota máxima 5.0 no Google",
+    description: "Mais de 263 avaliações com nota máxima 5.0 no Google",
     icon: "Star",
   },
   {

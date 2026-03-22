@@ -25,7 +25,7 @@ const TestimonialsSection = () => (
           Depoimentos de <span className="text-gradient">Clientes Reais</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Clientes satisfeitos com o atendimento 24h, profissionalismo, preço justo e as 260+ avaliações 5.0.
+          Clientes satisfeitos com atendimento 24h, profissionalismo, preço justo e mais de 263 avaliações nota 5.0.
         </p>
         <div className="mt-5 flex flex-wrap justify-center items-center gap-3 text-sm">
           <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 border border-accent/30 px-4 py-2 font-semibold text-foreground">
@@ -33,7 +33,7 @@ const TestimonialsSection = () => (
             Atendimento 5 estrelas
           </span>
           <span className="inline-flex items-center gap-2 rounded-full bg-card border border-border px-4 py-2 text-muted-foreground">
-            Avaliações reais de clientes satisfeitos
+            Prova social real com destaque para 263 avaliações 5.0
           </span>
         </div>
       </motion.div>

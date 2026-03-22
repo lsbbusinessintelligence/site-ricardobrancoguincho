@@ -16,7 +16,7 @@ const FloatingWhatsApp = () => {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-full bg-[#25D366] hover:bg-[#20BA5A] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
+        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-md bg-[#25D366] hover:bg-[#20BA5A] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
         title="Falar no WhatsApp"
         onClick={() => {
           if (typeof window !== 'undefined' && (window as any).gtag) {
@@ -33,7 +33,7 @@ const FloatingWhatsApp = () => {
 
       <a
         href={PHONE_URL}
-        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-full bg-[#1FA855] hover:bg-[#1A8E48] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
+        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-md bg-[#1FA855] hover:bg-[#1A8E48] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
         title="Ligar agora"
         onClick={() => {
           if (typeof window !== 'undefined' && (window as any).gtag) {

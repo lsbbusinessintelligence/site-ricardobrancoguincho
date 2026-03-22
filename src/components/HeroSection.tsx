@@ -43,14 +43,14 @@ const HeroSection = () => (
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground mb-6">
             Guincho e Reboque 24 Horas em Volta Redonda e Barra Mansa
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl">
-            Socorro rápido para veículos leves e pesados. Atendimento especializado com nota máxima de satisfação na região Sul Fluminense.
+          <p className="text-lg md:text-xl text-primary-foreground/80 mb-10 max-w-2xl">
+            Socorro rápido para veículos leves e pesados. Atendimento especializado com nota máxima de satisfação na região.
           </p>
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 shadow-[0_0_30px_-10px_rgba(37,211,102,0.8)]"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-md bg-[#25D366] text-white font-semibold text-lg hover:bg-[#20BA5A] transition-all duration-200 shadow-[0_0_30px_-10px_rgba(37,211,102,0.8)]"
             onClick={() => {
               if (typeof window !== 'undefined' && (window as any).gtag) {
                 (window as any).gtag('event', 'click_whatsapp', {
@@ -115,7 +115,7 @@ const HeroSection = () => (
                 "Equipe profissional e atendimento ágil!"
               </p>
               <p className="text-white/60 text-sm">
-                Mais de 260 avaliacoes com nota 5.0
+                Mais de 263 avaliações com nota 5.0
               </p>
             </div>
           </div>

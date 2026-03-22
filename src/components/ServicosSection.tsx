@@ -1,36 +1,41 @@
 import { motion } from "framer-motion";
-import { Truck, AlertCircle, Wrench, BatteryCharging, KeyRound } from "lucide-react";
+import { Truck, Wrench, BatteryCharging, KeyRound, Route, Package } from "lucide-react";
 
 const services = [
   {
     icon: Truck,
-    title: "Reboque 24h",
-    desc: "Servico de reboque completo para qualquer tipo de veiculo, disponivel 24 horas por dia e noite em Volta Redonda, Barra Mansa e regiao.",
-  },
-  {
-    icon: AlertCircle,
-    title: "Socorro para Panes Eletricas",
-    desc: "Atendimento rapido para problemas eletricos no veiculo com profissionais especializados e equipamento adequado.",
-  },
-  {
-    icon: Wrench,
-    title: "Troca de Pneus",
-    desc: "Troca de pneus com rapidez e seguranca na sua localizacao atual, sem necessidade de deslocamento.",
+    title: "Reboque de carros e motocicletas",
+    desc: "Atendimento rápido e seguro para remoção de carros e motos em situações de pane, acidente ou emergência.",
   },
   {
     icon: Truck,
-    title: "Transporte de Veiculos Leves",
-    desc: "Transporte seguro de veiculos leves para mecanicas, estacionamentos ou destinos especificos conforme necessario.",
-  },
-  {
-    icon: BatteryCharging,
-    title: "Recarga de Bateria",
-    desc: "Servico de recarga de bateria com equipamento profissional para colocar seu veiculo em funcionamento novamente.",
+    title: "Reboque de veículos especiais",
+    desc: "Transporte técnico para veículos especiais, utilitários e operações que exigem equipamento específico.",
   },
   {
     icon: KeyRound,
-    title: "Abertura de Veiculos",
-    desc: "Abertura segura de veiculos sem danificar a estrutura ou o sistema de seguranca da porta ou vidro.",
+    title: "Serviços para perda de chave do veículo",
+    desc: "Suporte especializado em ocorrências com perda de chave para você retomar sua rotina com segurança.",
+  },
+  {
+    icon: BatteryCharging,
+    title: "Substituição de bateria",
+    desc: "Troca de bateria no local com agilidade para restabelecer o funcionamento do veículo com segurança.",
+  },
+  {
+    icon: Route,
+    title: "Transporte de carga de longa distância",
+    desc: "Serviço confiável para deslocamentos de carga em trajetos longos com planejamento e suporte profissional.",
+  },
+  {
+    icon: Package,
+    title: "Transporte local de carga",
+    desc: "Remoção e transporte de cargas na cidade e arredores com atendimento rápido e compromisso com prazos.",
+  },
+  {
+    icon: Wrench,
+    title: "Troca de pneus",
+    desc: "Atendimento no local para troca de pneus em ocorrências emergenciais, com foco em segurança e agilidade.",
   },
 ];
 
@@ -45,10 +50,10 @@ const ServicosSection = () => (
         className="text-center max-w-2xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Nossos <span className="text-gradient">Servicos</span>
+          Nossos <span className="text-gradient">Serviços</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Servicos de reboque e socorro veicular 24h com profissionais treinados e preco justo.
+          Soluções completas de reboque e socorro mecânico para atender com rapidez em Volta Redonda, Barra Mansa e região.
         </p>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

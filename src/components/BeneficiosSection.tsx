@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Star, Clock, Timer, DollarSign } from "lucide-react";
 
 const benefits = [
-  { icon: Star, title: "Lider em Avaliacoes", desc: "Mais de 260 avaliacoes 5 estrelas comprovam a qualidade do atendimento." },
-  { icon: Clock, title: "Atendimento 24h", desc: "Disponivel 24 horas por dia em Volta Redonda, Barra Mansa e regiao Sul Fluminense." },
-  { icon: Timer, title: "Chegada Ultra-Rapida", desc: "Resposta imediata para reduzir seu tempo de espera em situacoes de emergencia." },
-  { icon: DollarSign, title: "Preco Justo e Sem Surpresas", desc: "Orcamento transparente, sem taxas ocultas e com total clareza no atendimento." },
+  { icon: Star, title: "Líder em Avaliações", desc: "Mais de 263 avaliações 5 estrelas comprovam a qualidade do atendimento." },
+  { icon: Clock, title: "Atendimento 24h", desc: "Disponível 24 horas por dia em Volta Redonda, Barra Mansa e região Sul Fluminense." },
+  { icon: Timer, title: "Chegada Ultra-Rápida", desc: "Resposta imediata para reduzir seu tempo de espera em situações de emergência." },
+  { icon: DollarSign, title: "Preço Justo e Sem Surpresas", desc: "Orçamento transparente, sem taxas ocultas e com total clareza no atendimento." },
 ];
 
 const BeneficiosSection = () => (

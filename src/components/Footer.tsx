@@ -28,7 +28,7 @@ const Footer = () => (
           <ul className="text-primary-foreground/70 space-y-2">
             <li>• {COMPANY.location}</li>
             <li>• Volta Redonda - RJ</li>
-            <li>• Atendimento em toda a região Sul Fluminense</li>
+            <li>• Atendimento em Barra Mansa, Volta Redonda e toda a Região Sul Fluminense.</li>
           </ul>
         </div>
       </div>
