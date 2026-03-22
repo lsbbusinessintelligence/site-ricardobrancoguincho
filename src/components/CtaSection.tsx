@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Phone } from "lucide-react";
-import { COMPANY } from "@/lib/siteConfig";
+import { MessageCircle } from "lucide-react";
+import { COMPANY, WHATSAPP_URL } from "@/lib/siteConfig";
 
 const CtaSection = () => (
   <section id="contato" className="hero-gradient py-20 md:py-28 scroll-mt-28">
@@ -19,18 +19,20 @@ const CtaSection = () => (
           Entre em contato com a Ricardo Branco Guincho para reboque seguro, rápido e com preço justo em Volta Redonda, Barra Mansa e região.
         </p>
         <a
-          href="tel:+5524981236037"
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-md bg-[#BFEFFF] text-black font-semibold text-lg hover:bg-[#A8D8EA] transition-all duration-200"
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-3 px-8 py-4 rounded-md bg-[#25D366] text-white font-semibold text-lg hover:bg-[#20BA5A] transition-all duration-200 shadow-[0_0_30px_-10px_rgba(37,211,102,0.8)]"
           onClick={() => {
             if (typeof window !== 'undefined' && (window as any).gtag) {
-              (window as any).gtag('event', 'click_call', {
+              (window as any).gtag('event', 'click_whatsapp', {
                 event_category: 'lead',
-                event_label: 'botao_ligar_cta'
+                event_label: 'botao_whatsapp_cta'
               });
             }
           }}
         >
-          <Phone className="w-5 h-5" />
+          <MessageCircle className="w-5 h-5" />
           Chamar Guincho Agora
         </a>
       </motion.div>
